@@ -16,6 +16,15 @@ Social media buttons Tooltip using Tailwindcss v 2.0
 </pre>
  
  that's why css is not minified and still some unused style tags like (button, input,  sup ...)   
- just to keep the style readable.
-
- 
+ just to keep the style readable.    
+     
+      
+### Enable variants
+enable the possibility to change the display and the visibility of a child element when hovering over a specific parent element 
+<pre>
+  variants: {
+    extend: {},
+    display: ['group-hover'],
+    visibility : ['group-hover']
+  },
+</pre>
