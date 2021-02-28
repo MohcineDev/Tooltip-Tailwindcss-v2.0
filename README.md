@@ -1,4 +1,9 @@
 # Tooltip Tailwindcss v2.0
+<div align="center">
+<img src="./Tailwindcss.svg"  alt="Tailwindcss" width="50%">  
+</div>
+<br/>
+      
 Social media buttons Tooltip using Tailwindcss v 2.0 
 
 * this repo created on the very special day when GitHub launched the dark mode
@@ -13,10 +18,11 @@ Social media buttons Tooltip using Tailwindcss v 2.0
     enabled: true,
     content: ['./src/**/*.html'],
    },
-</pre>
+</pre>   
+by default preserveHtmlElements : true    
  
- that's why css is not minified and still some unused style tags like (button, input,  sup ...)   
- just to keep the style readable.    
+that's why css is not minified and still some unused style tags like (button, input,  sup ...)    
+Read more [HERE](https://tailwindcss.com/docs/optimizing-for-production#preserving-html-elements)     
      
       
 ### Enable variants
